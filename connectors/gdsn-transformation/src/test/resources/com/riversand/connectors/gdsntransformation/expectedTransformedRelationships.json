@@ -1,0 +1,17 @@
+{
+  "nextLowerLevelTradeItemInformation": {
+    "childTradeItem": [
+      {
+        " quantityOfNextLowerLevelTradeItem": "4",
+        " gtin": "8855442266855"
+      },
+      {
+        " quantityOfNextLowerLevelTradeItem": "15"
+      },
+      {
+        " quantityOfNextLowerLevelTradeItem": "6",
+        " gtin": "7755442266855"
+      }
+    ]
+  }
+}

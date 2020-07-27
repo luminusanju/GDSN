@@ -1,0 +1,2017 @@
+{
+  "id": "ersUYumViZqGoAq",
+  "name": "345678901234567",
+  "type": "smtradeitem",
+  "properties": {
+    "createdService": "entityManageService",
+    "createdBy": "gdsnadmin@riversand.com_user",
+    "createdDate": "2020-07-02T00:25:25.891-0500",
+    "modifiedService": "entityManageService",
+    "modifiedBy": "gdsnadmin@riversand.com_user",
+    "modifiedDate": "2020-07-08T05:49:11.415-0500"
+  },
+  "data": {
+    "attributes": {
+      "sm_animalnutritionalclaim": {
+        "values": [
+          {
+            "source": "internal",
+            "locale": "en-US",
+            "id": "0332aaf0-5d14-46ea-acc6-85921e88214b",
+            "value": "yes"
+          }
+        ]
+      },
+      "sm_feedingamount": {
+        "values": [
+          {
+            "source": "internal",
+            "locale": "en-US",
+            "id": "b8a1ad20-c7a4-462b-be2e-8c07aab11b87",
+            "value": "1"
+          }
+        ]
+      },
+      "gtin": {
+        "values": [
+          {
+            "source": "internal",
+            "locale": "en-US",
+            "id": "79efdade-d38e-48a1-9bbf-cc471fecc777",
+            "value": "345678901234567"
+          }
+        ]
+      },
+      "sm_telephonenumber": {
+        "values": [
+          {
+            "source": "internal",
+            "locale": "en-US",
+            "id": "4c06b6a8-b7c7-424f-8544-577539f41faa",
+            "value": "1234567890"
+          }
+        ]
+      },
+      "sm_allergenspecification": {
+        "group": [
+          {
+            "sm_allergenspecificationagency": {
+              "values": [
+                {
+                  "source": "internal",
+                  "locale": "en-US",
+                  "id": "93dd1339-32b5-4351-973d-dbd6292e08a6",
+                  "value": "AA"
+                }
+              ]
+            },
+            "sm_allergenspecificationname": {
+              "values": [
+                {
+                  "source": "internal",
+                  "locale": "en-US",
+                  "id": "c0da9b80-8982-4e23-b56b-3c9bd1ed3652",
+                  "value": "Alter Alter"
+                }
+              ]
+            },
+            "sm_allergenstatement": {
+              "values": [
+                {
+                  "source": "internal",
+                  "locale": "en-US",
+                  "id": "09a33a7a-64ee-4558-a237-bcbdd2d4be08",
+                  "value": "Alter"
+                }
+              ]
+            },
+            "source": "internal",
+            "locale": "en-US",
+            "id": "17f9035c-fa29-4824-becf-71e3a06eb9ce"
+          }
+        ]
+      },
+      "sm_animalnutrientdetail": {
+        "group": [
+          {
+            "sm_animalnutrientexactpercentage": {
+              "values": [
+                {
+                  "source": "internal",
+                  "locale": "en-US",
+                  "id": "4639d43b-2629-4aa3-9ada-7b3cf1734397",
+                  "value": "2"
+                }
+              ]
+            },
+            "sm_animalnutrientmaximumpercentage": {
+              "values": [
+                {
+                  "source": "internal",
+                  "locale": "en-US",
+                  "id": "9576fc1e-7ab2-4231-adaa-8147e1c6c8d2",
+                  "value": "4"
+                }
+              ]
+            },
+            "sm_animalnutrientminimumpercentage": {
+              "values": [
+                {
+                  "source": "internal",
+                  "locale": "en-US",
+                  "id": "6ebaf55d-a35c-474d-aab4-2012ff2bcd87",
+                  "value": "1"
+                }
+              ]
+            },
+            "sm_animalnutrientquantitycontained": {
+              "values": [
+                {
+                  "source": "internal",
+                  "locale": "en-US",
+                  "id": "451f326f-034c-492a-8055-7af565eb7e23",
+                  "value": "200"
+                }
+              ]
+            },
+            "sm_animalnutrienttypecode": {
+              "values": [
+                {
+                  "source": "internal",
+                  "locale": "en-US",
+                  "id": "5b901f72-84de-413f-8d24-c6529d22d948",
+                  "value": "Carbon Monoxide",
+                  "properties": {
+                    "referenceDataIdentifier": "G_CMO",
+                    "referenceData": "nuttypecode/ersElk08h64rgN8"
+                  }
+                }
+              ]
+            },
+            "source": "internal",
+            "locale": "en-US",
+            "id": "7fb2df87-1541-4846-a5d6-a0084ec1adf7"
+          }
+        ]
+      },
+      "sm_feedanalyticalconstituentsstatement": {
+        "values": [
+          {
+            "source": "internal",
+            "locale": "en-US",
+            "id": "82d0b03f-e5b4-482d-827a-1ea9e496e294",
+            "value": "Feed"
+          }
+        ]
+      },
+      "sm_feedcompositionstatement": {
+        "values": [
+          {
+            "source": "internal",
+            "locale": "en-US",
+            "id": "e4fead9a-21bd-41e3-b0ff-fe2e0dc0b48e",
+            "value": "Feed compositin"
+          }
+        ]
+      },
+      "sm_feedinginstructions": {
+        "values": [
+          {
+            "source": "internal",
+            "locale": "en-US",
+            "id": "105dc441-e638-40b4-995c-ef3b85a60fcc",
+            "value": "add with grass"
+          }
+        ]
+      },
+      "sm_certificateinformation": {
+        "group": [
+          {
+            "sm_certificationvalue": {
+              "values": [
+                {
+                  "source": "internal",
+                  "locale": "en-US",
+                  "id": "a61fde64-7e8e-49aa-821a-65bce09ad3b8",
+                  "value": "2"
+                }
+              ]
+            },
+            "sm_certificationagency": {
+              "values": [
+                {
+                  "source": "internal",
+                  "locale": "en-US",
+                  "id": "a74a9c41-a524-436f-9315-023ea27eb1b8",
+                  "value": "FDA"
+                }
+              ]
+            },
+            "source": "internal",
+            "locale": "en-US",
+            "id": "8eb378bb-a590-4a26-b1f9-6cc0933beac4"
+          }
+        ]
+      },
+      "sm_diettypecertificationAgency": {
+        "values": [
+          {
+            "source": "internal",
+            "locale": "en-US",
+            "id": "557a1cc1-e806-4bf4-84d5-d9f50485d189",
+            "value": "FDA"
+          }
+        ]
+      },
+      "sm_brokerinvoiceindicator": {
+        "values": [
+          {
+            "source": "internal",
+            "locale": "en-US",
+            "id": "09267e51-1999-4db5-a26a-363b898ba8ba",
+            "value": false
+          }
+        ]
+      },
+      "sm_tradeitemvarianttypecode": {
+        "values": [
+          {
+            "source": "internal",
+            "locale": "en-US",
+            "id": "87dbfbef-61f9-4220-a80a-9a983cf6171e",
+            "value": "3"
+          }
+        ]
+      },
+      "sm_reftradeiteminfo": {
+        "group": [
+          {
+            "sm_referencedtradeitemgtin": {
+              "values": [
+                {
+                  "source": "internal",
+                  "locale": "en-US",
+                  "id": "6b98658c-780d-4f69-a3f0-37b7839882be",
+                  "value": "12345678901234"
+                }
+              ]
+            },
+            "sm_referencedtradeitemtypecode": {
+              "values": [
+                {
+                  "source": "internal",
+                  "locale": "en-US",
+                  "id": "876310e2-4bf4-4794-8999-132687674a63",
+                  "value": "Item Variant Master",
+                  "properties": {
+                    "referenceDataIdentifier": "ITEM_VARIANT_MASTER",
+                    "referenceData": "tradeitemtypecode/ersJReCixatvv70"
+                  }
+                }
+              ]
+            },
+            "source": "internal",
+            "locale": "en-US",
+            "id": "0e90a757-bb33-493b-9666-d07c2183ce4e"
+          }
+        ]
+      },
+      "sm_consumerstorageinstructions": {
+        "values": [
+          {
+            "source": "internal",
+            "locale": "en-US",
+            "id": "ba50f24c-a06d-41ee-86de-f1f074515115",
+            "value": "Cold storage"
+          }
+        ]
+      },
+      "sm_consumerusageinstructions": {
+        "values": [
+          {
+            "source": "internal",
+            "locale": "en-US",
+            "id": "d066bc28-2e8a-4780-9e5a-0c0bffbe5968",
+            "value": "Take hot"
+          }
+        ]
+      },
+      "sm_availabletime": {
+        "values": [
+          {
+            "source": "internal",
+            "locale": "en-US",
+            "id": "6824528e-31cb-49bd-a59a-9762d78374f2",
+            "value": "10.00"
+          }
+        ]
+      },
+      "sm_communicationaddress": {
+        "values": [
+          {
+            "source": "internal",
+            "locale": "en-US",
+            "id": "18565ffd-1353-4964-9887-606ae76f12b7",
+            "value": "TX"
+          }
+        ]
+      },
+      "sm_contactname": {
+        "values": [
+          {
+            "source": "internal",
+            "locale": "en-US",
+            "id": "c6fa6052-494c-46a4-a133-81db875bb283",
+            "value": "RS"
+          }
+        ]
+      },
+      "sm_countryoforiginstatement": {
+        "values": [
+          {
+            "source": "internal",
+            "locale": "en-US",
+            "id": "c6b65e91-f8f4-42e6-9032-771c428217b7",
+            "value": "US"
+          }
+        ]
+      },
+      "sm_startavailabilitydatetime": {
+        "values": [
+          {
+            "source": "internal",
+            "locale": "en-US",
+            "id": "a9a2eddf-9867-4d28-90cf-6325e288d35f",
+            "value": "2020-07-23T00:00:00.000-0500"
+          }
+        ]
+      },
+      "sm_externalfilelinkinfo": {
+        "group": [
+          {
+            "sm_contentdescription": {
+              "values": [
+                {
+                  "source": "internal",
+                  "locale": "en-US",
+                  "id": "000b4203-d195-41f2-94b6-6e1cba5acd11",
+                  "value": "Source Internal"
+                }
+              ]
+            },
+            "sm_fileeffectiveenddatetime": {
+              "values": [
+                {
+                  "source": "internal",
+                  "locale": "en-US",
+                  "id": "5d4bd992-d791-4d06-bc3c-8f0c8037343c",
+                  "value": "2020-07-22T00:00:00.000-0500"
+                }
+              ]
+            },
+            "sm_fileeffectivestartdatetime": {
+              "values": [
+                {
+                  "source": "internal",
+                  "locale": "en-US",
+                  "id": "d6be1025-5e7e-428e-a7e0-4b02faf2a595",
+                  "value": "2020-07-24T00:00:00.000-0500"
+                }
+              ]
+            },
+            "sm_fileformatdescription": {
+              "values": [
+                {
+                  "source": "internal",
+                  "locale": "en-US",
+                  "id": "711d1129-2112-442e-b90a-47854eb1d464",
+                  "value": "jpeg"
+                }
+              ]
+            },
+            "sm_fileformatname": {
+              "values": [
+                {
+                  "source": "internal",
+                  "locale": "en-US",
+                  "id": "a9fb6850-7e4f-43f2-9831-b6bdad002c72",
+                  "value": "jpg"
+                }
+              ]
+            },
+            "sm_typeofinformation": {
+              "values": [
+                {
+                  "source": "internal",
+                  "locale": "en-US",
+                  "id": "f08cf6d4-d416-48d4-bc60-9e416bdf1eb8",
+                  "invalidValue": "jpeg",
+                  "value": "jpeg"
+                }
+              ]
+            },
+            "sm_filename": {
+              "values": [
+                {
+                  "source": "internal",
+                  "locale": "en-US",
+                  "id": "2453fcc6-b9af-475f-964a-4881cec99d36",
+                  "value": "image"
+                }
+              ]
+            },
+            "sm_uniformresourceidentifier": {
+              "values": [
+                {
+                  "source": "internal",
+                  "locale": "en-US",
+                  "id": "b27a6304-e855-4f80-8a10-77e5ed61542e",
+                  "value": "https://0.com"
+                }
+              ]
+            },
+            "source": "internal",
+            "locale": "en-US",
+            "id": "f06a432f-f503-4af4-ac94-bdcf7d69ea43"
+          }
+        ]
+      },
+      "sm_flashpointtemperature": {
+        "values": [
+          {
+            "source": "internal",
+            "locale": "en-US",
+            "id": "af3095a0-7d47-4a3d-ac23-0a23ead29b85",
+            "value": "24"
+          }
+        ]
+      },
+      "sm_maximumtemperature": {
+        "values": [
+          {
+            "source": "internal",
+            "locale": "en-US",
+            "id": "07656adb-3f05-47c6-b7bf-768eddda30a2",
+            "value": "26"
+          }
+        ]
+      },
+      "sm_minimumlifespanfromtimeofarrival": {
+        "values": [
+          {
+            "source": "internal",
+            "locale": "en-US",
+            "id": "49f01cc0-9b6c-419c-baaa-30b91dd49253",
+            "value": "2"
+          }
+        ]
+      },
+      "sm_minimumlifespanfromtimeofproduction": {
+        "values": [
+          {
+            "source": "internal",
+            "locale": "en-US",
+            "id": "7f185905-054e-4a84-a9a0-ccf147fd56b6",
+            "value": "6"
+          }
+        ]
+      },
+      "sm_minimumtemperature": {
+        "values": [
+          {
+            "source": "internal",
+            "locale": "en-US",
+            "id": "30f86f3e-14d1-48f8-8786-50070366eb27",
+            "value": "23"
+          }
+        ]
+      },
+      "sm_ingredientstatement": {
+        "values": [
+          {
+            "source": "internal",
+            "locale": "en-US",
+            "id": "80d0a64a-d305-4006-b5a9-be55b2d046b1",
+            "value": "Ingredients chemicals"
+          }
+        ]
+      },
+      "sm_isTradeItemABaseUnit": {
+        "values": [
+          {
+            "source": "internal",
+            "locale": "en-US",
+            "id": "d05b03d7-a419-4007-8df1-570c7ea40d78",
+            "value": "false"
+          }
+        ]
+      },
+      "sm_brandName": {
+        "values": [
+          {
+            "source": "internal",
+            "locale": "en-US",
+            "id": "2ad21c67-67fc-454e-a72d-0db586d0b81f",
+            "value": "RS"
+          }
+        ]
+      },
+      "sm_brandOwnergln": {
+        "values": [
+          {
+            "source": "internal",
+            "locale": "en-US",
+            "id": "b4c3c0c4-ddaf-4d30-851b-992f95d3c162",
+            "value": "1100000982"
+          }
+        ]
+      },
+      "sm_channelOfDistribution": {
+        "values": [
+          {
+            "source": "internal",
+            "locale": "en-US",
+            "id": "218378a2-8828-4696-a9ea-2e159ceecf68",
+            "value": "digital"
+          }
+        ]
+      },
+      "sm_targetMarketCountryCode": {
+        "values": [
+          {
+            "source": "internal",
+            "locale": "en-US",
+            "id": "06ffebc2-8e24-4096-862c-bc2b5a81ca35",
+            "value": "wire"
+          }
+        ]
+      },
+      "sm_isTradeItemAConsumerUnit": {
+        "values": [
+          {
+            "source": "internal",
+            "locale": "en-US",
+            "id": "b2dd8ec8-d34f-4795-bf86-5ba9c3549ce0",
+            "value": "false"
+          }
+        ]
+      },
+      "sm_countryCode": {
+        "values": [
+          {
+            "source": "internal",
+            "locale": "en-US",
+            "id": "2720f558-80c0-4889-9ce4-070a026eb8d5",
+            "value": "IN"
+          }
+        ]
+      },
+      "sm_couponFamilyCode": {
+        "values": [
+          {
+            "source": "internal",
+            "locale": "en-US",
+            "id": "69dcc719-0e5b-43f1-82f6-f74fd526bfdd",
+            "value": "NO"
+          }
+        ]
+      },
+      "sm_dataCarrierTypeCode": {
+        "values": [
+          {
+            "source": "internal",
+            "locale": "en-US",
+            "id": "42f34517-070c-4f45-9362-d877ffdea867",
+            "value": "EAN"
+          }
+        ]
+      },
+      "sm_discontinuedDateTime": {
+        "values": [
+          {
+            "source": "internal",
+            "locale": "en-US",
+            "id": "5a864e9b-22d0-4e12-ad18-38aefea78283",
+            "value": "12-10-2020"
+          }
+        ]
+      },
+      "sm_isTradeItemADispatchUnit": {
+        "values": [
+          {
+            "source": "internal",
+            "locale": "en-US",
+            "id": "0790231d-98ce-4614-916b-2e943489d9f3",
+            "value": "false"
+          }
+        ]
+      },
+      "sm_flavorvariantvalue": {
+        "values": [
+          {
+            "source": "internal",
+            "locale": "en-US",
+            "id": "d0eeb3a0-2739-4aaa-8c37-9314ecd0fe21",
+            "value": "scent"
+          }
+        ]
+      },
+      "sm_functionalName": {
+        "values": [
+          {
+            "source": "internal",
+            "locale": "en-US",
+            "id": "fd99c4bc-f84c-427c-a701-faea28fd2c49",
+            "value": "scent"
+          }
+        ]
+      },
+      "sm_gpcCategoryCode": {
+        "values": [
+          {
+            "source": "internal",
+            "locale": "en-US",
+            "id": "b138d865-b1df-458d-a28d-29ee89569f1d",
+            "value": "PL"
+          }
+        ]
+      },
+      "sm_grossWeight": {
+        "values": [
+          {
+            "source": "internal",
+            "locale": "en-US",
+            "id": "cb972704-b0da-480e-badc-4bcdad6c5d2f",
+            "value": "20"
+          }
+        ]
+      },
+      "sm_gSTHSTApplicable": {
+        "values": [
+          {
+            "source": "internal",
+            "locale": "en-US",
+            "id": "df322d97-f39c-417d-a536-6c65be16f00f",
+            "value": "yes"
+          }
+        ]
+      },
+      "sm_globalTradeItemNumber": {
+        "values": [
+          {
+            "source": "internal",
+            "locale": "en-US",
+            "id": "8653e6dd-c1e3-4adc-855b-f5a70a9c32f6",
+            "value": "345678901234567"
+          }
+        ]
+      },
+      "sm_hasBatchNumber": {
+        "values": [
+          {
+            "source": "internal",
+            "locale": "en-US",
+            "id": "1e66607c-7b2d-49cc-9c09-54b92cdc09dc",
+            "value": "yes"
+          }
+        ]
+      },
+      "sm_height": {
+        "values": [
+          {
+            "source": "internal",
+            "locale": "en-US",
+            "id": "ab2859c0-7d51-416d-ab29-3db8bf1a8ca1",
+            "value": "20"
+          }
+        ]
+      },
+      "sm_informationProvider": {
+        "values": [
+          {
+            "source": "internal",
+            "locale": "en-US",
+            "id": "a31f1528-6168-4f81-bffa-7179f340d359",
+            "value": "1100000982"
+          }
+        ]
+      },
+      "sm_quantityOfInnerPack": {
+        "values": [
+          {
+            "source": "internal",
+            "locale": "en-US",
+            "id": "8e94740e-1c8a-4c32-a3b2-c6e89bc79582",
+            "value": "yes"
+          }
+        ]
+      },
+      "sm_isTradeItemAnInvoiceUnit": {
+        "values": [
+          {
+            "source": "internal",
+            "locale": "en-US",
+            "id": "50698a18-d18f-4801-8509-5e928830f0d3",
+            "value": "false"
+          }
+        ]
+      },
+      "sm_tradeItemFormDescription": {
+        "values": [
+          {
+            "source": "internal",
+            "locale": "en-US",
+            "id": "627d78e7-c268-4a73-ba81-a2eb5c397c26",
+            "value": "html"
+          }
+        ]
+      },
+      "sm_depth": {
+        "values": [
+          {
+            "source": "internal",
+            "locale": "en-US",
+            "id": "6f15588b-de9a-4579-ac7b-763e3b949315",
+            "value": "30"
+          }
+        ]
+      },
+      "sm_manufacturergln": {
+        "values": [
+          {
+            "source": "internal",
+            "locale": "en-US",
+            "id": "7a7c44ae-5238-4a81-94cf-24657dc84444",
+            "value": "1234567890123"
+          }
+        ]
+      },
+      "sm_isTradeItemMarkedAsRecyclable": {
+        "values": [
+          {
+            "source": "internal",
+            "locale": "en-US",
+            "id": "7156f298-4308-458d-b0b4-a9aaa1c8ff1c",
+            "value": "No"
+          }
+        ]
+      },
+      "sm_isPackagingMarkedWithIngredients": {
+        "values": [
+          {
+            "source": "internal",
+            "locale": "en-US",
+            "id": "cd6fc576-4151-41ae-ab75-c17ba10fcfd0",
+            "value": "No"
+          }
+        ]
+      },
+      "sm_orderQuantityMaximum": {
+        "values": [
+          {
+            "source": "internal",
+            "locale": "en-US",
+            "id": "132ca6cb-98f5-49c6-92c7-21777a9e629e",
+            "value": "20"
+          }
+        ]
+      },
+      "sm_orderQuantityMinimum": {
+        "values": [
+          {
+            "source": "internal",
+            "locale": "en-US",
+            "id": "0802323a-961d-4d1a-bf56-40844dd0faad",
+            "value": "5"
+          }
+        ]
+      },
+      "sm_netContent": {
+        "values": [
+          {
+            "source": "internal",
+            "locale": "en-US",
+            "id": "609f66a3-d0ab-4dc0-990b-821cdefbea3f",
+            "value": "200"
+          }
+        ]
+      },
+      "sm_isNetContentDeclarationIndicated": {
+        "values": [
+          {
+            "source": "internal",
+            "locale": "en-US",
+            "id": "0afbf345-2a9f-4830-a947-a419930ee39f",
+            "value": "red"
+          }
+        ]
+      },
+      "sm_netWeight": {
+        "values": [
+          {
+            "source": "internal",
+            "locale": "en-US",
+            "id": "c1623607-11ca-4f2a-b1e4-938841cca346",
+            "value": "200"
+          }
+        ]
+      },
+      "sm_quantityOfCompleteLayersContainedInATradeItem": {
+        "values": [
+          {
+            "source": "internal",
+            "locale": "en-US",
+            "id": "3bb105ee-a9b5-4129-bf71-f3d310bbbdf4",
+            "value": "2"
+          }
+        ]
+      },
+      "sm_quantityOfLayersPerPallet": {
+        "values": [
+          {
+            "source": "internal",
+            "locale": "en-US",
+            "id": "3da05747-9bfc-429b-845f-e8d081fccfd6",
+            "value": "2"
+          }
+        ]
+      },
+      "sm_quantityOfTradeItemsContainedInACompleteLayer": {
+        "values": [
+          {
+            "source": "internal",
+            "locale": "en-US",
+            "id": "33122c99-be4d-407f-970f-7d9907ba1480",
+            "value": "2"
+          }
+        ]
+      },
+      "sm_quantityOfTradeItemsPerPalletLayer": {
+        "values": [
+          {
+            "source": "internal",
+            "locale": "en-US",
+            "id": "906e39fd-0bf9-435b-9f2c-5cb31ddccad6",
+            "value": "2"
+          }
+        ]
+      },
+      "sm_isTradeItemAnOrderableUnit": {
+        "values": [
+          {
+            "source": "internal",
+            "locale": "en-US",
+            "id": "df84211c-9a4e-48bd-bae9-3843d0edd909",
+            "value": "false"
+          }
+        ]
+      },
+      "sm_isPackagingMarkedReturnable": {
+        "values": [
+          {
+            "source": "internal",
+            "locale": "en-US",
+            "id": "354a821d-1627-4214-b6a6-acbc0b528b23",
+            "value": "yes"
+          }
+        ]
+      },
+      "sm_tradeItemUnitDescriptorCode": {
+        "values": [
+          {
+            "source": "internal",
+            "locale": "en-US",
+            "id": "45150841-65a9-4b99-bfc0-747fef1e9a2f",
+            "value": "PL"
+          }
+        ]
+      },
+      "sm_totalQuantityOfNextLowerLevelTradeItem": {
+        "values": [
+          {
+            "source": "internal",
+            "locale": "en-US",
+            "id": "201e473f-6907-4377-ba4b-1d889cd626f5",
+            "value": "3"
+          }
+        ]
+      },
+      "sm_isNonSoldTradeItemReturnable": {
+        "values": [
+          {
+            "source": "internal",
+            "locale": "en-US",
+            "id": "9f4fbf01-d07b-4d31-af19-42545ad1ceea",
+            "value": "yes"
+          }
+        ]
+      },
+      "sm_isTradeItemSeasonal": {
+        "values": [
+          {
+            "source": "internal",
+            "locale": "en-US",
+            "id": "c499151c-76bf-437a-b249-ff758b575bdf",
+            "value": "false"
+          }
+        ]
+      },
+      "sm_descriptionShort": {
+        "values": [
+          {
+            "source": "internal",
+            "locale": "en-US",
+            "id": "617ef3ca-2898-4352-897b-657391104979",
+            "value": "nothing"
+          }
+        ]
+      },
+      "sm_subBrand": {
+        "values": [
+          {
+            "source": "internal",
+            "locale": "en-US",
+            "id": "40ff68ab-870e-4fdb-b175-720063e18955",
+            "value": "RS"
+          }
+        ]
+      },
+      "sm_tradeItemTradeChannelCode": {
+        "values": [
+          {
+            "source": "internal",
+            "locale": "en-US",
+            "id": "e913b233-0bdf-4090-97f8-d701d8c28412",
+            "value": "Wire"
+          }
+        ]
+      },
+      "sm_unitsPerConsumerUnit": {
+        "values": [
+          {
+            "source": "internal",
+            "locale": "en-US",
+            "id": "0b7a53d1-81e9-4128-831f-f19ba0e7ee36",
+            "value": "20"
+          }
+        ]
+      },
+      "sm_isTradeItemAVariableUnit": {
+        "values": [
+          {
+            "source": "internal",
+            "locale": "en-US",
+            "id": "08ef0a27-be42-42e3-8390-5c5697e8b21c",
+            "value": "YES"
+          }
+        ]
+      },
+      "sm_inBoxCubeDimension": {
+        "values": [
+          {
+            "source": "internal",
+            "locale": "en-US",
+            "id": "8cc94567-d175-4d90-b8fe-354fb88aa422",
+            "value": "300"
+          }
+        ]
+      },
+      "sm_width": {
+        "values": [
+          {
+            "source": "internal",
+            "locale": "en-US",
+            "id": "abed2eaa-48ce-4f51-aa83-878defb0d6fc",
+            "value": "20"
+          }
+        ]
+      },
+      "sm_channelspecificmarketingmessage": {
+        "values": [
+          {
+            "source": "internal",
+            "locale": "en-US",
+            "id": "a3a2cdc5-6ad6-46cb-b197-80b0cafbff29",
+            "value": "Red zone"
+          }
+        ]
+      },
+      "sm_formoreinfoaboutproduct": {
+        "values": [
+          {
+            "source": "internal",
+            "locale": "en-US",
+            "id": "76d1886e-5e42-4c7a-8e30-2a6a63b4f8c1",
+            "value": "Nothing"
+          }
+        ]
+      },
+      "sm_featurebenefit": {
+        "values": [
+          {
+            "source": "internal",
+            "locale": "en-US",
+            "id": "b08d4cbd-ce6b-4aa0-8801-bd633ffe6e95",
+            "value": "Healthy"
+          }
+        ]
+      },
+      "sm_tradeitemkeywords": {
+        "values": [
+          {
+            "source": "internal",
+            "locale": "en-US",
+            "id": "a8cac8fe-8b12-4bb7-aab8-f0dd61d12b34",
+            "value": "Healthy Good"
+          }
+        ]
+      },
+      "sm_nutrientdetail": {
+        "group": [
+          {
+            "sm_dailyvalueintakepercentmeasurementprecisioncode": {
+              "values": [
+                {
+                  "source": "internal",
+                  "locale": "en-US",
+                  "id": "9f5ed533-5b56-4046-8379-908adb8ecbec",
+                  "value": "1"
+                }
+              ]
+            },
+            "sm_dailyvalueintakepercent": {
+              "values": [
+                {
+                  "source": "internal",
+                  "locale": "en-US",
+                  "id": "caf057a2-a59a-453c-98da-47f80147a3a9",
+                  "value": "2"
+                }
+              ]
+            },
+            "sm_measurementprecisioncode": {
+              "values": [
+                {
+                  "source": "internal",
+                  "locale": "en-US",
+                  "id": "3f87d7c2-f1af-4558-97f5-e5efd683718f",
+                  "invalidValue": "2",
+                  "value": "2"
+                }
+              ]
+            },
+            "sm_nutrienttypecode": {
+              "values": [
+                {
+                  "source": "internal",
+                  "locale": "en-US",
+                  "id": "40f1101d-9acb-45e1-a9b7-30954c6d57f8",
+                  "value": "Carbon Monoxide",
+                  "properties": {
+                    "referenceDataIdentifier": "G_CMO",
+                    "referenceData": "nuttypecode/ersElk08h64rgN8"
+                  }
+                }
+              ]
+            },
+            "sm_nutrientquantitycontained": {
+              "values": [
+                {
+                  "source": "internal",
+                  "locale": "en-US",
+                  "id": "f4af9784-c472-40cd-b414-482cb3259350",
+                  "value": "200"
+                }
+              ]
+            },
+            "sm_nutriheadersequenceref": {
+              "values": [
+                {
+                  "source": "internal",
+                  "locale": "en-US",
+                  "id": "d65ae38b-8ae4-4cac-8238-e8c271554d49",
+                  "value": 1
+                }
+              ]
+            },
+            "source": "internal",
+            "locale": "en-US",
+            "id": "0ff1fd6a-503a-488a-b14c-35eb9ad5abfb"
+          }
+        ]
+      },
+      "sm_nutrientformattypecodereference@codelistagencyname": {
+        "values": [
+          {
+            "source": "internal",
+            "locale": "en-US",
+            "id": "30308c38-f904-4a24-90cf-68d6fc0040d1",
+            "value": "PA"
+          }
+        ]
+      },
+      "sm_nutritionheader": {
+        "group": [
+          {
+            "sm_dailyvalueintakereference": {
+              "values": [
+                {
+                  "source": "internal",
+                  "locale": "en-US",
+                  "id": "6a74b4c1-6e17-483c-9d13-926cf84c8b11",
+                  "value": "NO"
+                }
+              ]
+            },
+            "sm_preparationstatecode": {
+              "values": [
+                {
+                  "source": "internal",
+                  "locale": "en-US",
+                  "id": "a5208e2b-4cf8-44ad-a1c4-8d35f5235434",
+                  "value": "Bake",
+                  "properties": {
+                    "referenceDataIdentifier": "BAKE",
+                    "referenceData": "preparationtypecode/GjbjPFwfS2KCLZgf4w0KeA"
+                  }
+                }
+              ]
+            },
+            "sm_servingsize": {
+              "values": [
+                {
+                  "source": "internal",
+                  "locale": "en-US",
+                  "id": "f661f387-a484-4701-9873-5ae41523be9f",
+                  "value": "2"
+                }
+              ]
+            },
+            "sm_servingsizedescription": {
+              "values": [
+                {
+                  "source": "internal",
+                  "locale": "en-US",
+                  "id": "c6012125-4f6f-49e7-a2f7-ddcb6691ad51",
+                  "value": "N/A"
+                }
+              ]
+            },
+            "sm_nutriheadersequence": {
+              "values": [
+                {
+                  "source": "internal",
+                  "locale": "en-US",
+                  "id": "6a2bab94-3ee2-46a3-afd9-cd8782e7bc72",
+                  "value": 2
+                }
+              ]
+            },
+            "source": "internal",
+            "locale": "en-US",
+            "id": "4b4f3f0b-297b-403e-bace-acff09dd2af0"
+          }
+        ]
+      },
+      "sm_servingsizeweight": {
+        "values": [
+          {
+            "source": "internal",
+            "locale": "en-US",
+            "id": "d4dcb1d1-452b-466a-9115-714fa7c4ce02",
+            "value": "100"
+          }
+        ]
+      },
+      "sm_consumerpackagedisclaimer": {
+        "values": [
+          {
+            "source": "internal",
+            "locale": "en-US",
+            "id": "9e31ae87-7a5c-4052-b34e-34edf3cf2075",
+            "value": "smelly"
+          }
+        ]
+      },
+      "sm_hasdisplayreadypackaging": {
+        "values": [
+          {
+            "source": "internal",
+            "locale": "en-US",
+            "id": "4de66371-66f4-4df6-994e-caff5cc0096c",
+            "value": true
+          }
+        ]
+      },
+      "sm_isdisplayunit": {
+        "values": [
+          {
+            "source": "internal",
+            "locale": "en-US",
+            "id": "62342a3f-78b3-49dc-81c2-092575b0bcad",
+            "value": true
+          }
+        ]
+      },
+      "sm_ispriceonpack": {
+        "values": [
+          {
+            "source": "internal",
+            "locale": "en-US",
+            "id": "8cd7305d-d850-4435-8fb1-147f0759c803",
+            "value": true
+          }
+        ]
+      },
+      "sm_totalunitspercase": {
+        "values": [
+          {
+            "source": "internal",
+            "locale": "en-US",
+            "id": "62a6bc5c-e6b3-4245-93ae-350a1efe502b",
+            "value": "1000"
+          }
+        ]
+      },
+      "sm_warningcopydescription": {
+        "values": [
+          {
+            "source": "internal",
+            "locale": "en-US",
+            "id": "6250b44c-cfb2-4446-993e-7fbb1e294301",
+            "value": "No"
+          }
+        ]
+      },
+      "sm_manufacturername": {
+        "values": [
+          {
+            "source": "internal",
+            "locale": "en-US",
+            "id": "d5c0482f-17b7-4abb-9423-1a4bb416aa11",
+            "value": "RS"
+          }
+        ]
+      },
+      "sm_preparationprecautions": {
+        "values": [
+          {
+            "source": "internal",
+            "locale": "en-US",
+            "id": "58e02c77-26da-4b87-b767-0d2a2acce7ac",
+            "value": "not required"
+          }
+        ]
+      },
+      "sm_preparationinstructions": {
+        "values": [
+          {
+            "source": "internal",
+            "locale": "en-US",
+            "id": "6739bfd4-7e57-4827-9bac-e3e8affa59c9",
+            "value": "NA"
+          }
+        ]
+      },
+      "sm_servingsuggestion": {
+        "values": [
+          {
+            "source": "internal",
+            "locale": "en-US",
+            "id": "f0d98229-d9b2-4c9e-9e91-22d3396b976b",
+            "value": "Cool"
+          }
+        ]
+      },
+      "sm_irradiatedcode": {
+        "values": [
+          {
+            "source": "internal",
+            "locale": "en-US",
+            "id": "4f5c383d-dd1e-4adc-8a36-bbbc93b61b4f",
+            "value": false
+          }
+        ]
+      },
+      "sm_fatinmilkcontent": {
+        "values": [
+          {
+            "source": "internal",
+            "locale": "en-US",
+            "id": "81ecbe71-af92-4fd8-bbba-170401dfbd4d",
+            "value": "no"
+          }
+        ]
+      },
+      "sm_juicecontentpercent": {
+        "values": [
+          {
+            "source": "internal",
+            "locale": "en-US",
+            "id": "2cb0799a-def1-47b3-a869-79a872e93949",
+            "value": "3"
+          }
+        ]
+      },
+      "sm_individualunitmaximumsize": {
+        "values": [
+          {
+            "source": "internal",
+            "locale": "en-US",
+            "id": "fe1b9108-784a-4952-9ba0-70f3c0909f5f",
+            "value": "12"
+          }
+        ]
+      },
+      "sm_individualunitminimumsize": {
+        "values": [
+          {
+            "source": "internal",
+            "locale": "en-US",
+            "id": "d71a7934-d2b4-4706-95ee-21ce5758f729",
+            "value": "10"
+          }
+        ]
+      },
+      "sm_netcontentstatement": {
+        "values": [
+          {
+            "source": "internal",
+            "locale": "en-US",
+            "id": "6b979c2c-1e34-4f42-97c5-a91c9074eada",
+            "value": "1200"
+          }
+        ]
+      },
+      "sm_allergen": {
+        "group": [
+          {
+            "sm_allergentypecode": {
+              "values": [
+                {
+                  "source": "internal",
+                  "locale": "en-US",
+                  "id": "a81b4e51-a21d-4083-ba24-2e416a69956d",
+                  "invalidValue": "DRUG",
+                  "value": "DRUG"
+                }
+              ]
+            },
+            "sm_levelofcontainmentcode": {
+              "values": [
+                {
+                  "source": "internal",
+                  "locale": "en-US",
+                  "id": "0931d34e-9d48-46cc-bb0f-9aea79a39466",
+                  "invalidValue": "TO_BE_CUT_FOR_SALE",
+                  "value": "TO_BE_CUT_FOR_SALE"
+                }
+              ]
+            },
+            "locale": "en-US",
+            "source": "internal",
+            "id": "4958f9e0-9c5f-4a12-8b05-e680a4e1f9cd"
+          },
+          {
+            "sm_allergentypecode": {
+              "values": [
+                {
+                  "source": "internal",
+                  "locale": "en-US",
+                  "id": "5c979ccb-a511-4ac5-ad3f-77bc45a90605",
+                  "value": "2 (4-tert-Butylbenzyl)",
+                  "properties": {
+                    "referenceDataIdentifier": "BE",
+                    "referenceData": "allergentypecode/pZejOYzcTZOrz_nI0riVcw"
+                  }
+                }
+              ]
+            },
+            "sm_levelofcontainmentcode": {
+              "values": [
+                {
+                  "source": "internal",
+                  "locale": "en-US",
+                  "id": "46ddbcb3-7248-491c-8569-14d69563878b",
+                  "invalidValue": "TO_BE_CUT_FOR_SALE",
+                  "value": "TO_BE_CUT_FOR_SALE"
+                }
+              ]
+            },
+            "source": "internal",
+            "locale": "en-US",
+            "id": "3f31f3c9-d1a8-4565-8251-858e7dc92bd8"
+          }
+        ]
+      },
+      "sm_feedlifestage": {
+        "values": [
+          {
+            "source": "internal",
+            "locale": "en-US",
+            "id": "e3e7d161-9e16-4f5b-b6c3-890ed118210f",
+            "invalidValue": "2",
+            "value": "2"
+          }
+        ]
+      },
+      "sm_feedtype": {
+        "values": [
+          {
+            "source": "internal",
+            "locale": "en-US",
+            "id": "7aa41b8f-44dc-4c16-b21d-03c2e5feef2a",
+            "value": "Feed Materials",
+            "properties": {
+              "referenceDataIdentifier": "FEED_MATERIALS",
+              "referenceData": "feedtypecode/wsVSEQq-R7SndkB6ni8K_g"
+            }
+          }
+        ]
+      },
+      "sm_targetedconsumptionby": {
+        "values": [
+          {
+            "source": "internal",
+            "locale": "en-US",
+            "id": "336d8128-78f3-46c6-a2c7-9fedce9cff22",
+            "value": "Amphibian",
+            "properties": {
+              "referenceDataIdentifier": "AMPHIBIAN",
+              "referenceData": "pettypecode/ersnwPGxUImHzYy"
+            }
+          }
+        ]
+      },
+      "sm_diettypeinformation": {
+        "group": [
+          {
+            "sm_diettypesubcode": {
+              "values": [
+                {
+                  "source": "internal",
+                  "locale": "en-US",
+                  "id": "5c27d207-5ff2-42e8-81a2-4bcc5f7747ca",
+                  "invalidValue": "3 times",
+                  "value": "3 times"
+                }
+              ]
+            },
+            "sm_diettypecode": {
+              "values": [
+                {
+                  "source": "internal",
+                  "locale": "en-US",
+                  "id": "742d1372-79fc-4f86-95c3-806216e8729b",
+                  "invalidValue": "Regular",
+                  "value": "Regular"
+                }
+              ]
+            },
+            "locale": "en-US",
+            "source": "internal",
+            "id": "32bf8165-e4da-447e-a49b-0245968fd55c"
+          },
+          {
+            "sm_diettypecode": {
+              "values": [
+                {
+                  "source": "internal",
+                  "locale": "en-US",
+                  "id": "a6c94c62-f487-43e7-8326-3e5fe52f39b7",
+                  "value": "Halal",
+                  "properties": {
+                    "referenceDataIdentifier": "HALAL",
+                    "referenceData": "diettypecode/BaY316nzQBWVwLyb-wug4Q"
+                  }
+                }
+              ]
+            },
+            "sm_diettypesubcode": {
+              "values": [
+                {
+                  "source": "internal",
+                  "locale": "en-US",
+                  "id": "251807d4-4d5f-41f3-b3d0-24ce870fd8dd",
+                  "invalidValue": "3 times",
+                  "value": "3 times"
+                }
+              ]
+            },
+            "source": "internal",
+            "locale": "en-US",
+            "id": "0d5b5673-2373-4ff5-814d-a6fa474f72f0"
+          },
+          {
+            "sm_diettypecode": {
+              "values": [
+                {
+                  "source": "internal",
+                  "locale": "en-US",
+                  "id": "ebb86164-418e-48f3-8f21-a8f2f1b591a6",
+                  "invalidValue": "Regular",
+                  "value": "Regular"
+                }
+              ]
+            },
+            "sm_diettypesubcode": {
+              "values": [
+                {
+                  "source": "internal",
+                  "locale": "en-US",
+                  "id": "de6885d2-2909-40dd-b453-4e3e240b43e1",
+                  "invalidValue": "3 times",
+                  "value": "3 times"
+                }
+              ]
+            },
+            "source": "internal",
+            "locale": "en-US",
+            "id": "5767b91a-a2dd-4ea5-8bf7-7518554af04e"
+          },
+          {
+            "sm_diettypecode": {
+              "values": [
+                {
+                  "source": "internal",
+                  "locale": "en-US",
+                  "id": "c823d793-64c1-4a5d-9adc-b2faf394f467",
+                  "value": "Diabetic",
+                  "properties": {
+                    "referenceDataIdentifier": "DIABETIC",
+                    "referenceData": "diettypecode/hX02HZ2uSAWxSWME7z4XIA"
+                  }
+                }
+              ]
+            },
+            "sm_diettypesubcode": {
+              "values": [
+                {
+                  "source": "internal",
+                  "locale": "en-US",
+                  "id": "3803a595-d7c2-48c4-a01e-a1378e8a6fea",
+                  "invalidValue": "3 times",
+                  "value": "3 times"
+                }
+              ]
+            },
+            "source": "internal",
+            "locale": "en-US",
+            "id": "7e92ffe7-a620-45ba-9e64-b235eb8fc256"
+          }
+        ]
+      },
+      "sm_organictradeitemcode": {
+        "values": [
+          {
+            "source": "internal",
+            "locale": "en-US",
+            "id": "5a4b582f-fc4b-49db-8465-911a225e84f8",
+            "value": "Disqualified",
+            "properties": {
+              "referenceDataIdentifier": "8",
+              "referenceData": "organiccode/ersvBKRuIXkTd5M"
+            }
+          }
+        ]
+      },
+      "sm_organicclaimagencycode": {
+        "values": [
+          {
+            "source": "internal",
+            "locale": "en-US",
+            "id": "348a287a-751f-4749-9eb9-d301cc0c6005",
+            "value": "EPA",
+            "properties": {
+              "referenceDataIdentifier": "1",
+              "referenceData": "organicagencycode/ersMDbsdKMrIdk8"
+            }
+          }
+        ]
+      },
+      "sm_handlinginstructionscode": {
+        "values": [
+          {
+            "source": "internal",
+            "locale": "en-US",
+            "id": "bf5af0a7-21af-4610-bca1-f9c3b10350ef",
+            "value": "Heat Sensitive",
+            "properties": {
+              "referenceDataIdentifier": "1",
+              "referenceData": "handlinginstructionscode/ersgQrOpeoF9aTd"
+            }
+          }
+        ]
+      },
+      "sm_pstapplicablebyprovince": {
+        "values": [
+          {
+            "source": "internal",
+            "locale": "en-US",
+            "id": "3fa45dd3-77ef-40cc-b032-7806cd9c8f9c",
+            "invalidValue": "PN",
+            "value": "PN"
+          }
+        ]
+      },
+      "sm_marketingtradechannel": {
+        "values": [
+          {
+            "source": "internal",
+            "locale": "en-US",
+            "id": "d7cfcce0-ed14-413b-84c3-ce832fab2ab8",
+            "value": "Agriculture",
+            "properties": {
+              "referenceDataIdentifier": "AGRICULTURE",
+              "referenceData": "marketingtradechannelcode/ers5cfcjLtYJqWg"
+            }
+          }
+        ]
+      },
+      "sm_tradeitemmarketingmessage": {
+        "values": [
+          {
+            "source": "internal",
+            "locale": "en-US",
+            "id": "0f024ec3-46b6-49ff-af85-fc6350b6a569",
+            "value": "Mareket IT"
+          }
+        ]
+      },
+      "sm_preparationtypecode": {
+        "values": [
+          {
+            "source": "internal",
+            "locale": "en-US",
+            "id": "776ce37c-4697-4008-80d3-fe4e6250ca5f",
+            "invalidValue": "Bake",
+            "value": "Bake"
+          }
+        ]
+      },
+      "sm_tradeitemdateonpackagingtypecode": {
+        "values": [
+          {
+            "source": "internal",
+            "locale": "en-US",
+            "id": "3e4ac22c-67f2-4c07-abb0-970bf44b99cf",
+            "value": "Best Before Date",
+            "properties": {
+              "referenceDataIdentifier": "BEST_BEFORE_DATE",
+              "referenceData": "dateonpackagetypecode/ers1cmYE6vpUFwT"
+            }
+          }
+        ]
+      },
+      "sm_packagingmarkedlabelaccreditationcode": {
+        "values": [
+          {
+            "source": "internal",
+            "locale": "en-US",
+            "id": "ba0768d8-1b36-46ce-8d64-a15757d73dbc",
+            "value": "100% Veganskt",
+            "properties": {
+              "referenceDataIdentifier": "100_PERCENT_VEGANSKT",
+              "referenceData": "packmarkedlabelaccreditationcode/ers195usJGPoMYO"
+            }
+          }
+        ]
+      },
+      "sm_platformtypecode": {
+        "values": [
+          {
+            "source": "internal",
+            "locale": "en-US",
+            "id": "7bf67274-8a41-43b6-820a-88e1c8ee1219",
+            "value": "Pallet 600 X 400 mm",
+            "properties": {
+              "referenceDataIdentifier": "13",
+              "referenceData": "pallettypecode/erscW3zHJc1xMFz"
+            }
+          }
+        ]
+      },
+      "sm_packagingmaterialinfo": {
+        "group": [
+          {
+            "sm_packagingmaterialtypecode": {
+              "values": [
+                {
+                  "source": "internal",
+                  "locale": "en-US",
+                  "id": "64abf367-83fd-4a65-be16-2e12a5940df9",
+                  "invalidValue": "New",
+                  "value": "New"
+                }
+              ]
+            },
+            "sm_packagingtypecode": {
+              "values": [
+                {
+                  "source": "internal",
+                  "locale": "en-US",
+                  "id": "66099b07-45e4-46d7-aa0e-5ef727c03649",
+                  "invalidValue": "New",
+                  "value": "New"
+                }
+              ]
+            },
+            "locale": "en-US",
+            "source": "internal",
+            "id": "38996f01-305d-4c0d-b89a-6d191115b57d"
+          },
+          {
+            "sm_packagingmaterialtypecode": {
+              "values": [
+                {
+                  "source": "internal",
+                  "locale": "en-US",
+                  "id": "94ea73f1-f6b7-4cb4-9c88-b78f96728a8b",
+                  "value": "Brass",
+                  "properties": {
+                    "referenceDataIdentifier": "METAL_BRASS",
+                    "referenceData": "packagingmaterialtypecode/Ab42IV95TGCiDsNya5bWoA"
+                  }
+                }
+              ]
+            },
+            "sm_packagingtypecode": {
+              "values": [
+                {
+                  "source": "internal",
+                  "locale": "en-US",
+                  "id": "ea950dd7-713a-4486-9d56-051424cb0776",
+                  "value": "Aerosol",
+                  "properties": {
+                    "referenceDataIdentifier": "AE",
+                    "referenceData": "packagingtypecode/erscCAEqOUaKm7c"
+                  }
+                }
+              ]
+            },
+            "source": "internal",
+            "locale": "en-US",
+            "id": "c202a3a9-8a5e-4c5c-b3cd-98b3ce37ae6b"
+          },
+          {
+            "sm_packagingmaterialtypecode": {
+              "values": [
+                {
+                  "source": "internal",
+                  "locale": "en-US",
+                  "id": "d622ee55-6829-47a3-9032-4e25a28f091f",
+                  "value": "Burlap",
+                  "properties": {
+                    "referenceDataIdentifier": "FIBRE_BURLAP",
+                    "referenceData": "packagingmaterialtypecode/BwAGoMI8Qb-M2bP-eUGpcQ"
+                  }
+                }
+              ]
+            },
+            "sm_packagingtypecode": {
+              "values": [
+                {
+                  "source": "internal",
+                  "locale": "en-US",
+                  "id": "51116e02-aec7-4055-979e-9546ffdce671",
+                  "value": "Intermediate Bulk Container, rigid plastic",
+                  "properties": {
+                    "referenceDataIdentifier": "AA",
+                    "referenceData": "packagingtypecode/ers2qF90bsemq9w"
+                  }
+                }
+              ]
+            },
+            "source": "internal",
+            "locale": "en-US",
+            "id": "2bb299ee-7d87-49f0-ae3e-0494c1dccd1d"
+          }
+        ]
+      },
+      "sm_nutrientformattypecodereference": {
+        "values": [
+          {
+            "source": "internal",
+            "locale": "en-US",
+            "id": "e0e9eecd-6d9d-4e53-9f0c-2a2d65a08825",
+            "invalidValue": "MINERIAL",
+            "value": "MINERIAL"
+          }
+        ]
+      },
+      "sm_doestradeitemcarryusdachildnutritionlabel": {
+        "values": [
+          {
+            "source": "internal",
+            "locale": "en-US",
+            "id": "6fe455c0-03b0-4035-aef3-71267493ec1c",
+            "invalidValue": "New",
+            "value": "New"
+          }
+        ]
+      },
+      "sm_nutritionalclaim": {
+        "values": [
+          {
+            "source": "internal",
+            "locale": "en-US",
+            "id": "72d61728-8c91-47b7-8e2f-ca0196efeb57",
+            "value": "yes"
+          }
+        ]
+      },
+      "sm_nutritionalclaiminformation": {
+        "group": [
+          {
+            "sm_nutritionalclaimcode": {
+              "values": [
+                {
+                  "source": "internal",
+                  "locale": "en-US",
+                  "id": "23cbc313-52f8-42f2-b659-c64ddb343f80",
+                  "invalidValue": "New",
+                  "value": "New"
+                }
+              ]
+            },
+            "sm_nutritionalclaimnutrientelementcode": {
+              "values": [
+                {
+                  "source": "internal",
+                  "locale": "en-US",
+                  "id": "e49967c0-8bb3-40b4-ab52-28a3492cb8d8",
+                  "invalidValue": "New",
+                  "value": "New"
+                }
+              ]
+            },
+            "locale": "en-US",
+            "source": "internal",
+            "id": "ae5fb36b-035e-4bc6-a6bf-1abe805aed6a"
+          },
+          {
+            "sm_nutritionalclaimcode": {
+              "values": [
+                {
+                  "source": "internal",
+                  "locale": "en-US",
+                  "id": "85f74fd9-8b9c-4844-b5d6-9f1fa34528ee",
+                  "invalidValue": "New",
+                  "value": "New"
+                }
+              ]
+            },
+            "sm_nutritionalclaimnutrientelementcode": {
+              "values": [
+                {
+                  "source": "internal",
+                  "locale": "en-US",
+                  "id": "7475242a-1721-49ae-aeb2-199d7cc3f95e",
+                  "value": "Additives",
+                  "properties": {
+                    "referenceDataIdentifier": "ADDITIVES",
+                    "referenceData": "nutritionalclaimelementcode/ersAV9dhmEYCeMX"
+                  }
+                }
+              ]
+            },
+            "source": "internal",
+            "locale": "en-US",
+            "id": "3b7f80c3-e49c-43dd-857c-89958e42d823"
+          },
+          {
+            "sm_nutritionalclaimcode": {
+              "values": [
+                {
+                  "source": "internal",
+                  "locale": "en-US",
+                  "id": "37117fa7-f4dd-4600-9065-458e6a019e86",
+                  "invalidValue": "New",
+                  "value": "New"
+                }
+              ]
+            },
+            "sm_nutritionalclaimnutrientelementcode": {
+              "values": [
+                {
+                  "source": "internal",
+                  "locale": "en-US",
+                  "id": "14e4d3d6-f78d-4d0d-a17f-7c4e35b1a5cf",
+                  "value": "Agave Syrup",
+                  "properties": {
+                    "referenceDataIdentifier": "AGAVE_SYRUP",
+                    "referenceData": "nutritionalclaimelementcode/ers20RPsQsu0Cq1"
+                  }
+                }
+              ]
+            },
+            "source": "internal",
+            "locale": "en-US",
+            "id": "066d0af0-6a26-4cb2-b283-a268e7242f63"
+          }
+        ]
+      }
+    },
+    "relationships": {
+      "childgtins": [
+        {
+          "properties": {
+            "direction": "both",
+            "relationshipType": "Association"
+          },
+          "attributes": {
+            "totalQuantityOfNextLowerLevelTradeItem": {
+              "values": [
+                {
+                  "source": "internal",
+                  "locale": "en-US",
+                  "id": "1d8eec2d-ac72-4740-8b52-dab28d81e532",
+                  "value": "4"
+                }
+              ]
+            }
+          },
+          "relTo": {
+            "id": "ersCzFw0m55GiJl",
+            "type": "tradeitem",
+            "data": {
+              "attributes": {
+                "gtin": {
+                  "values": [
+                    {
+                      "source": "internal",
+                      "locale": "en-US",
+                      "id": "1d8eec2d-ac72-4740-8b52-dab28d81e532",
+                      "value": "8855442266855"
+                    }
+                  ]
+                }
+              }
+            }
+          },
+          "id": "childgtins_ersCzFw0m55GiJl"
+        },
+        {
+          "properties": {
+            "direction": "both",
+            "relationshipType": "Association"
+          },
+          "attributes": {
+            "totalQuantityOfNextLowerLevelTradeItem": {
+              "values": [
+                {
+                  "source": "internal",
+                  "locale": "en-US",
+                  "id": "1d8eec2d-ac72-4740-8b52-dab28d81e532",
+                  "value": "15"
+                }
+              ]
+            }
+          },
+          "relTo": {
+            "id": "ersCtt0m55GiJl",
+            "type": "tradeitem"
+          },
+          "id": "childgtins_ersCtt0m55GiJl"
+        },
+        {
+          "properties": {
+            "direction": "both",
+            "relationshipType": "Association"
+          },
+          "attributes": {
+            "totalQuantityOfNextLowerLevelTradeItem": {
+              "values": [
+                {
+                  "source": "internal",
+                  "locale": "en-US",
+                  "id": "1d8eec2d-ac72-4740-8b52-dab28d81e532",
+                  "value": "6"
+                }
+              ]
+            }
+          },
+          "relTo": {
+            "id": "ersCrrrm55GiJl",
+            "type": "tradeitem",
+            "data": {
+              "attributes": {
+                "gtin": {
+                  "values": [
+                    {
+                      "source": "internal",
+                      "locale": "en-US",
+                      "id": "1d8eec2d-ac72-4740-8b52-dab28d81e532",
+                      "value": "7755442266855"
+                    }
+                  ]
+                }
+              }
+            }
+          },
+          "id": "childgtins_ersCrrrm55GiJl"
+        }
+      ]
+    }
+  }
+}

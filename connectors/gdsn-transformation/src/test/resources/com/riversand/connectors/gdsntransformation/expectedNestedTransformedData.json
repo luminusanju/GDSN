@@ -1,0 +1,203 @@
+{
+  "tradeItemInformation": [
+    {
+      "extension": [
+        {
+          "animalFeedingModule": [
+            {
+              "animalFeeding": [
+                {
+                  "animalFeedingDetail": [
+                    {
+                      "animalNutrientDetail": [
+                        {
+                          "animalNutrientMaximumPercentage": "4",
+                          "animalNutrientTypeCode": [
+                            {
+                              "__value__": "Carbon Monoxide"
+                            }
+                          ],
+                          "animalNutrientExactPercentage": "2",
+                          "animalNutrientMinimumPercentage": "1",
+                          "animalNutrientQuantityContained": [
+                            {
+                              "@measurementUnitCode": null,
+                              "__value__": "200"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "nutritionalInformationModule": [
+            {
+              "nutrientHeader": [
+                {
+                  "nutrientDetail": [
+                    {
+                      "dailyValueIntakePercentMeasurementPrecisionCode": [
+                        {
+                          "@dailyvalueintakepercentmeasurementprecisioncodecode": "1",
+                          "__value__": null
+                        }
+                      ],
+                      "dailyvalueintakepercent": "2",
+                      "quantityContained": [
+                        {
+                          "@measurementUnitCode": null,
+                          "__value__": "200"
+                        }
+                      ],
+                      "nutrientTypeCode": [
+                        {
+                          "@nutrienttypecodecode": "Carbon Monoxide",
+                          "__value__": "G_CMO"
+                        }
+                      ],
+                      "measurementprecisioncode": [
+                        {
+                          "__value__": "2"
+                        }
+                      ]
+                    }
+                  ],
+                  "dailyValueIntakeReference": [
+                    {
+                      "@languageCode": "en",
+                      "__value__": "NO"
+                    }
+                  ],
+                  "preparationStateCode": [
+                    {
+                      "__value__": "Bake"
+                    }
+                  ],
+                  "servingSize": [
+                    {
+                      "@measurementUnitCode": null,
+                      "__value__": "2"
+                    }
+                  ],
+                  "servingSizeDescription": [
+                    {
+                      "@languageCode": "en",
+                      "__value__": "N/A"
+                    }
+                  ],
+                  "nutriHeaderSequence": "2"
+                }
+              ]
+            }
+          ],
+          "dietInformationModule": [
+            {
+              "dietInformation": [
+                {
+                  "dietTypeInformation": [
+                    {
+                      "dietTypeSubcode": "3 times",
+                      "dietTypeCode": [
+                        {
+                          "__value__": "Regular"
+                        },
+                        {
+                          "__value__": "Halal"
+                        },
+                        {
+                          "__value__": "Regular"
+                        },
+                        {
+                          "__value__": "Diabetic"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "packagingInformationModule": [
+            {
+              "packaging": [
+                {
+                  "packagingMaterial": [
+                    {
+                      "packagingMaterialTypeCode": [
+                        {
+                          "__value__": "New"
+                        },
+                        {
+                          "__value__": "Brass"
+                        },
+                        {
+                          "__value__": "Burlap"
+                        }
+                      ]
+                    }
+                  ],
+                  "packagingTypeCode": [
+                    {
+                      "__value__": "New"
+                    },
+                    {
+                      "__value__": "Aerosol"
+                    },
+                    {
+                      "__value__": "Intermediate Bulk Container, rigid plastic"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "allergenInformationModule": [
+            {
+              "allergenRelatedInformation": [
+                {
+                  "allergenSpecificationName": "Alter Alter",
+                  "allergenSpecificationAgency": "AA",
+                  "allergenStatement": [
+                    {
+                      "@languageCode": "en",
+                      "__value__": "Alter"
+                    }
+                  ],
+                  "allergen": [
+                    {
+                      "allergenTypeCode": [
+                        {
+                          "__value__": "DRUG"
+                        }
+                      ],
+                      "levelOfContainmentCode": [
+                        {
+                          "__value__": "TO_BE_CUT_FOR_SALE"
+                        }
+                      ]
+                    },
+                    {
+                      "allergenTypeCode": [
+                        {
+                          "__value__": "2 (4-tert-Butylbenzyl)"
+                        }
+                      ],
+                      "levelOfContainmentCode": [
+                        {
+                          "__value__": "TO_BE_CUT_FOR_SALE"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

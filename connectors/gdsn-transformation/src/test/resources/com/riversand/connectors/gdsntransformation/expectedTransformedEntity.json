@@ -1,0 +1,564 @@
+{
+  "gtin": "345678901234567",
+  "tradeItemInformation": [
+    {
+      "extension": [
+        {
+          "animalFeedingModule": [
+            {
+              "animalNutritionalClaim": [
+                {
+                  "@languageCode": "en",
+                  "__value__": "yes"
+                }
+              ],
+              "animalFeeding": [
+                {
+                  "animalFeedingDetail": [
+                    {
+                      "feedingAmount": [
+                        {
+                          "@measurementUnitCode": null,
+                          "__value__": "1"
+                        }
+                      ],
+                      "animalNutrientDetail": [
+                        {
+                          "animalNutrientMaximumPercentage": "4",
+                          "animalNutrientTypeCode": [
+                            {
+                              "__value__": "Carbon Monoxide"
+                            }
+                          ],
+                          "animalNutrientExactPercentage": "2",
+                          "animalNutrientMinimumPercentage": "1",
+                          "animalNutrientQuantityContained": [
+                            {
+                              "@measurementUnitCode": null,
+                              "__value__": "200"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ],
+                  "feedLifestage": [
+                    {
+                      "@languageCode": "en",
+                      "__value__": "2"
+                    }
+                  ]
+                }
+              ],
+              "feedAnalyticalConstituentsStatement": [
+                {
+                  "@languageCode": "en",
+                  "__value__": "Feed"
+                }
+              ],
+              "feedingInstructions": [
+                {
+                  "@languageCode": "en",
+                  "__value__": "add with grass"
+                }
+              ],
+              "feedCompositionStatement": [
+                {
+                  "@languageCode": "en",
+                  "__value__": "Feed compositin"
+                }
+              ],
+              "feedType": [
+                {
+                  "__value__": "Feed Materials"
+                }
+              ],
+              "targetedConsumptionBy": [
+                {
+                  "__value__": "Amphibian"
+                }
+              ]
+            }
+          ],
+          "tradeItemDescriptionModule": [
+            {
+              "tradeItemDescriptionInformation": [
+                {
+                  "tradeItemVariant": [
+                    {
+                      "tradeItemVariantTypeCode": [
+                        {
+                          "__value__": "3"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "consumerInstructionsModule": [
+            {
+              "consumerInstructions": [
+                {
+                  "consumerStorageInstructions": [
+                    {
+                      "@languageCode": "en",
+                      "__value__": "Cold storage"
+                    }
+                  ],
+                  "consumerUsageInstructions": [
+                    {
+                      "@languageCode": "en",
+                      "__value__": "Take hot"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "placeOfItemActivityModule": [
+            {
+              "placeOfProductActivity": [
+                {
+                  "countryOfOriginStatement": [
+                    {
+                      "@languageCode": "en",
+                      "__value__": "US"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "deliveryPurchasingInformationModule": [
+            {
+              "deliveryPurchasingInformation": [
+                {
+                  "startAvailabilityDateTime": "2020-07-23T00:00:00.000-0500"
+                }
+              ]
+            }
+          ],
+          "safetyDataSheetModule": [
+            {
+              "safetyDataSheetInformation": [
+                {
+                  "physicalChemicalPropertyInformation": [
+                    {
+                      "flashPoint": [
+                        {
+                          "flashPointTemperature": [
+                            {
+                              "@temperatureMeasurementUnitCode": null,
+                              "__value__": "24"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "tradeItemTemperatureInformationModule": [
+            {
+              "tradeItemTemperatureInformation": [
+                {
+                  "maximumTemperature": [
+                    {
+                      "@temperatureMeasurementUnitCode": null,
+                      "__value__": "26"
+                    }
+                  ],
+                  "minimumTemperature": [
+                    {
+                      "@temperatureMeasurementUnitCode": null,
+                      "__value__": "23"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "foodAndBeverageIngredientModule": [
+            {
+              "ingredientStatement": [
+                {
+                  "@languageCode": "en",
+                  "__value__": "Ingredients chemicals"
+                }
+              ],
+              "juiceContentPercent": "3",
+              "foodAndBeverageIngredient": [
+                {
+                  "ingredientOrganicInformation": [
+                    {
+                      "organicClaim": [
+                        {
+                          "organicTradeItemCode": [
+                            {
+                              "__value__": "Disqualified"
+                            }
+                          ],
+                          "organicClaimAgencyCode": [
+                            {
+                              "__value__": "EPA"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "marketingInformationModule": [
+            {
+              "marketingInformation": [
+                {
+                  "channelSpecificMarketingInformation": [
+                    {
+                      "channelSpecificMarketingMessage": [
+                        {
+                          "@languageCode": "en",
+                          "__value__": "Red zone"
+                        }
+                      ],
+                      "marketingTradeChannel": [
+                        {
+                          "__value__": "Agriculture"
+                        }
+                      ]
+                    }
+                  ],
+                  "tradeItemFeatureBenefit": [
+                    {
+                      "@languageCode": "en",
+                      "__value__": "Healthy"
+                    }
+                  ],
+                  "tradeItemKeyWords": [
+                    {
+                      "@languageCode": "en",
+                      "__value__": "Healthy Good"
+                    }
+                  ],
+                  "tradeItemMarketingMessage": [
+                    {
+                      "@languageCode": "en",
+                      "__value__": "Mareket IT"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "packagingMarkingModule": [
+            {
+              "packagingMarking": [
+                {
+                  "consumerPackageDisclaimer": [
+                    {
+                      "@languageCode": "en",
+                      "__value__": "smelly"
+                    }
+                  ],
+                  "warningCopyDescription": [
+                    {
+                      "@languageCode": "en",
+                      "__value__": "No"
+                    }
+                  ],
+                  "packagingDate": [
+                    {
+                      "tradeItemDateOnPackagingTypeCode": [
+                        {
+                          "__value__": "Best Before Date"
+                        }
+                      ]
+                    }
+                  ],
+                  "packagingMarkedLabelAccreditationCode": [
+                    {
+                      "__value__": "100% Veganskt"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "foodAndBeveragePreparationServingModule": [
+            {
+              "preparationServing": [
+                {
+                  "preparationInstructions": [
+                    {
+                      "@languageCode": "en",
+                      "__value__": "NA"
+                    }
+                  ],
+                  "servingSuggestion": [
+                    {
+                      "@languageCode": "en",
+                      "__value__": "Cool"
+                    }
+                  ],
+                  "preparationTypeCode": [
+                    {
+                      "__value__": "Bake"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "farmingAndProcessingInformationModule": [
+            {
+              "irradiatedCode": false
+            }
+          ],
+          "dairyFishMeatPoultryItemModule": [
+            {
+              "dairyFishMeatPoultryInformation": [
+                {
+                  "fatInMilkContent": "no"
+                }
+              ]
+            }
+          ],
+          "tradeItemMeasurementsModule": [
+            {
+              "tradeItemMeasurements": [
+                {
+                  "individualUnitMaximumSize": [
+                    {
+                      "@measurementUnitCode": null,
+                      "__value__": "12"
+                    }
+                  ],
+                  "individualUnitMinimumSize": [
+                    {
+                      "@measurementUnitCode": null,
+                      "__value__": "10"
+                    }
+                  ],
+                  "netContentStatement": [
+                    {
+                      "@languageCode": "en",
+                      "__value__": "1200"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "packagingInformationModule": [
+            {
+              "packaging": [
+                {
+                  "platformTypeCode": [
+                    {
+                      "__value__": "Pallet 600 X 400 mm"
+                    }
+                  ],
+                  "packagingMaterial": [
+                    {
+                      "packagingMaterialTypeCode": [
+                        {
+                          "__value__": "New"
+                        },
+                        {
+                          "__value__": "Brass"
+                        },
+                        {
+                          "__value__": "Burlap"
+                        }
+                      ]
+                    }
+                  ],
+                  "packagingTypeCode": [
+                    {
+                      "__value__": "New"
+                    },
+                    {
+                      "__value__": "Aerosol"
+                    },
+                    {
+                      "__value__": "Intermediate Bulk Container, rigid plastic"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "nutritionalInformationModule": [
+            {
+              "nutrientFormatTypeCodeReference": [
+                {
+                  "@codeListAgencyName": "MINERIAL",
+                  "__value__": null
+                }
+              ],
+              "nutritionalclaim": [
+                {
+                  "@languageCode": "en",
+                  "__value__": "yes"
+                }
+              ],
+              "nutrientHeader": [
+                {
+                  "nutrientDetail": [
+                    {
+                      "dailyValueIntakePercentMeasurementPrecisionCode": [
+                        {
+                          "@dailyvalueintakepercentmeasurementprecisioncodecode": "1",
+                          "__value__": null
+                        }
+                      ],
+                      "dailyvalueintakepercent": "2",
+                      "quantityContained": [
+                        {
+                          "@measurementUnitCode": null,
+                          "__value__": "200"
+                        }
+                      ],
+                      "nutrientTypeCode": [
+                        {
+                          "@nutrienttypecodecode": "Carbon Monoxide",
+                          "__value__": "G_CMO"
+                        }
+                      ],
+                      "measurementprecisioncode": [
+                        {
+                          "__value__": "2"
+                        }
+                      ]
+                    }
+                  ],
+                  "dailyValueIntakeReference": [
+                    {
+                      "@languageCode": "en",
+                      "__value__": "NO"
+                    }
+                  ],
+                  "preparationStateCode": [
+                    {
+                      "__value__": "Bake"
+                    }
+                  ],
+                  "servingSize": [
+                    {
+                      "@measurementUnitCode": null,
+                      "__value__": "2"
+                    }
+                  ],
+                  "servingSizeDescription": [
+                    {
+                      "@languageCode": "en",
+                      "__value__": "N/A"
+                    }
+                  ],
+                  "nutriHeaderSequence": "2"
+                }
+              ]
+            }
+          ],
+          "dietInformationModule": [
+            {
+              "dietInformation": [
+                {
+                  "dietTypeInformation": [
+                    {
+                      "dietTypeSubcode": "3 times",
+                      "dietTypeCode": [
+                        {
+                          "__value__": "Regular"
+                        },
+                        {
+                          "__value__": "Halal"
+                        },
+                        {
+                          "__value__": "Regular"
+                        },
+                        {
+                          "__value__": "Diabetic"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "allergenInformationModule": [
+            {
+              "allergenRelatedInformation": [
+                {
+                  "allergenSpecificationName": "Alter Alter",
+                  "allergenSpecificationAgency": "AA",
+                  "allergenStatement": [
+                    {
+                      "@languageCode": "en",
+                      "__value__": "Alter"
+                    }
+                  ],
+                  "allergen": [
+                    {
+                      "allergenTypeCode": [
+                        {
+                          "__value__": "DRUG"
+                        }
+                      ],
+                      "levelOfContainmentCode": [
+                        {
+                          "__value__": "TO_BE_CUT_FOR_SALE"
+                        }
+                      ]
+                    },
+                    {
+                      "allergenTypeCode": [
+                        {
+                          "__value__": "2 (4-tert-Butylbenzyl)"
+                        }
+                      ],
+                      "levelOfContainmentCode": [
+                        {
+                          "__value__": "TO_BE_CUT_FOR_SALE"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "tradeItemUnitDescriptorCode": [
+    {
+      "__value__": "PL"
+    }
+  ],
+  "tradeItemContactInformation": [
+    {
+      "availableTime": [
+        {
+          "@languageCode": "en",
+          "__value__": "10.00"
+        }
+      ],
+      "contactName": "RS",
+      "contactAddress": "TX"
+    }
+  ],
+  "displayUnitInformation": [
+    {
+      "hasDisplayReadyPackaging": true
+    }
+  ]
+}

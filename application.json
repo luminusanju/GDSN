@@ -1,0 +1,7 @@
+{
+  "id": "app-{{CUSTOMERNAME}}-transformation",
+  "description": "{{CUSTOMERNAME}} Transformation Application",
+  "sdkDependencies": {
+    "connectorsSDK": "1.0.0"
+  }
+}

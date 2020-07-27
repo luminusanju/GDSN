@@ -1,0 +1,7 @@
+{
+  "name": "customer-uploads",
+  "type": "container",
+  "storage_account": "tenant",
+  "metadata": {
+  }
+}

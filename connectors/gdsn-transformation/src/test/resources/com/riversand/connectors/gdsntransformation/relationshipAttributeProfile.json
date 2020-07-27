@@ -1,0 +1,130 @@
+{
+  "executionContext": {
+    "userId": "gdsnadmin@riversand.com",
+    "userRole": "admin",
+    "ownershipData": "Nike",
+    "originatingClientId": "rdpclient",
+    "clientId": "rdpclient"
+  },
+  "connectProfile": {
+    "id": "sys_export_onews_publish_base",
+    "name": "sys_export_onews_publish_base",
+    "type": "ENTITY_EXPORT",
+    "statusEventEnabled": "true",
+    "integrationType": "System",
+    "isEnabled": "true",
+    "isMergeableWithCustom": true,
+    "taskSubType": "SYNDICATE",
+    "collect": {
+      "isBinaryStreamPersistent": "true",
+      "channel": [
+        {
+          "settings": {
+            "includeParent": "false",
+            "includeChildren": "false",
+            "includeSiblings": "false",
+            "includeRelatedEntities": "false",
+            "type": "RSJSON",
+            "version": "1.1",
+            "includeRelatedEntityExternalIds": "false"
+          },
+          "type": "rdpConnector"
+        }
+      ],
+      "format": {
+        "settings": {
+          "additionalSettings": {
+            "extractToCollect": "false",
+            "supportEmptyContextsRequest": true,
+            "sendDataInConstructor": true
+          }
+        },
+        "type": "RSJSON",
+        "batchSize": 100,
+        "version": "1.1"
+      }
+    },
+    "publish": {
+      "filter": {
+        "include": {},
+        "exclude": {}
+      },
+      "isBinaryStreamPersistent": "false",
+      "channel": [
+        {
+          "settings": {
+            "includeParent": "false",
+            "includeChildren": "false",
+            "includeSiblings": "false",
+            "includeRelatedEntities": "false",
+            "type": "RSJSON",
+            "version": "1.1",
+            "includeRelatedEntityExternalIds": "false"
+          },
+          "type": "rdpConnector"
+        }
+      ],
+      "format": {
+        "settings": {
+          "additionalSettings": {
+            "isISJson": true
+          }
+        },
+        "type": "JSON",
+        "batchSize": 1,
+        "version": "1.0"
+      }
+    },
+    "transform": {
+      "type": "GDSNTransformer",
+      "settings": {
+        "channel": "GDSN",
+        "generateRelationshipFieldMap": false,
+        "allowNullValues": "false",
+        "loadDefaultOverrides": true,
+        "clearMissingAttributes": "false",
+        "strategies": [
+          {
+            "caseFormat": "NONE",
+            "trimTrailingNumbers": "false",
+            "isDefault": "false",
+            "removeSpecialCharacters": "false",
+            "removeWhitespace": "false",
+            "useExternalName": "false",
+            "trimLeadingNumbers": "false"
+          }
+        ],
+        "entityType": "@field(type)",
+        "enableDynamicMapping": "true",
+        "integrationRecordTransformer": "true",
+        "collectionSeparator": "||"
+      },
+      "relationships": {
+        "fieldMap": [
+          {
+            "id": -998405472,
+            "source": "@relAttr(childgtins, totalQuantityOfNextLowerLevelTradeItem)",
+            "destination": "@relPath(nextLowerLevelTradeItemInformation.childTradeItem[%d], quantityOfNextLowerLevelTradeItem)",
+            "entityType": "smtradeitem",
+            "hasUOM": false,
+            "isLocalizable": false,
+            "isKeyValuePair": true,
+            "collectionType": false,
+            "isSystemAttribute": false
+          },
+          {
+            "id": -998405472,
+            "source": "@relToAttr(childgtins, tradeitem, gtin)",
+            "destination": "@relPath(nextLowerLevelTradeItemInformation.childTradeItem[%d], gtin)",
+            "entityType": "smtradeitem",
+            "hasUOM": false,
+            "isLocalizable": false,
+            "isKeyValuePair": true,
+            "collectionType": false,
+            "isSystemAttribute": false
+          }
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "artifactKey": "{{CUSTOMERNAME}}-gdsn-transformation",
+  "components": {
+    "recordTransformers": {
+      "{{CUSTOMERNAME}}Transformer": {
+        "className": "com.riversand.connectors.gdsntransformation.GDSNTransformer"
+      }
+    },
+    "fieldMapGenerators": {
+      "{{CUSTOMERNAME}}": {
+        "className": "com.riversand.connectors.gdsntransformation.FieldMapGenerator"
+      }
+    }
+  }
+}

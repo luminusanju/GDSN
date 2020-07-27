@@ -1,0 +1,461 @@
+{
+  "executionContext": {
+    "userId": "gdsnadmin@riversand.com",
+    "userRole": "admin",
+    "ownershipData": "Nike",
+    "originatingClientId": "rdpclient",
+    "clientId": "rdpclient"
+  },
+  "connectProfile": {
+    "id": "sys_export_onews_publish_base",
+    "name": "sys_export_onews_publish_base",
+    "type": "ENTITY_EXPORT",
+    "statusEventEnabled": "true",
+    "integrationType": "System",
+    "isEnabled": "true",
+    "isMergeableWithCustom": true,
+    "taskSubType": "SYNDICATE",
+    "collect": {
+      "isBinaryStreamPersistent": "true",
+      "channel": [
+        {
+          "settings": {
+            "includeParent": "false",
+            "includeChildren": "false",
+            "includeSiblings": "false",
+            "includeRelatedEntities": "false",
+            "type": "RSJSON",
+            "version": "1.1",
+            "includeRelatedEntityExternalIds": "false"
+          },
+          "type": "rdpConnector"
+        }
+      ],
+      "format": {
+        "settings": {
+          "additionalSettings": {
+            "extractToCollect": "false",
+            "supportEmptyContextsRequest": true,
+            "sendDataInConstructor": true
+          }
+        },
+        "type": "RSJSON",
+        "batchSize": 100,
+        "version": "1.1"
+      }
+    },
+    "publish": {
+      "filter": {
+        "include": {},
+        "exclude": {}
+      },
+      "isBinaryStreamPersistent": "false",
+      "channel": [
+        {
+          "settings": {
+            "includeParent": "false",
+            "includeChildren": "false",
+            "includeSiblings": "false",
+            "includeRelatedEntities": "false",
+            "type": "RSJSON",
+            "version": "1.1",
+            "includeRelatedEntityExternalIds": "false"
+          },
+          "type": "rdpConnector"
+        }
+      ],
+      "format": {
+        "settings": {
+          "additionalSettings": {
+            "isISJson": true
+          }
+        },
+        "type": "JSON",
+        "batchSize": 1,
+        "version": "1.0"
+      }
+    },
+    "transform": {
+      "type": "GDSNTransformer",
+      "settings": {
+        "channel": "GDSN",
+        "generateRelationshipFieldMap": false,
+        "allowNullValues": "false",
+        "loadDefaultOverrides": true,
+        "clearMissingAttributes": "false",
+        "strategies": [
+          {
+            "caseFormat": "NONE",
+            "trimTrailingNumbers": "false",
+            "isDefault": "false",
+            "removeSpecialCharacters": "false",
+            "removeWhitespace": "false",
+            "useExternalName": "false",
+            "trimLeadingNumbers": "false"
+          }
+        ],
+        "entityType": "@field(type)",
+        "enableDynamicMapping": "true",
+        "integrationRecordTransformer": "true",
+        "collectionSeparator": "||"
+      },
+      "fieldMap": [
+        {
+          "id": 372424459,
+          "source": "@attr(sm_animalnutrientdetail)",
+          "destination": "@path(animalNutrientDetail[%d])",
+          "entityType": "smtradeitem",
+          "type": "oneToTwoLevel",
+          "hasUOM": false,
+          "isLocalizable": false,
+          "collectionType": true,
+          "isKeyValuePair": true,
+          "childFieldMappings": [
+            {
+              "id": 127371307,
+              "source": "@attr(sm_animalnutrientdetail.group[%d].sm_animalnutrientmaximumpercentage)",
+              "destination": "@path(tradeItemInformation[0].extension[0].animalFeedingModule[0].animalFeeding[0].animalFeedingDetail[0].animalNutrientDetail[%d].animalNutrientMaximumPercentage)",
+              "entityType": "smtradeitem",
+              "type": "string",
+              "hasUOM": false,
+              "isLocalizable": false,
+              "collectionType": false,
+              "isKeyValuePair": true
+            },
+            {
+              "id": 508703030,
+              "source": "@attr(sm_animalnutrientdetail.group[%d].sm_animalnutrienttypecode)",
+              "destination": "@path(tradeItemInformation[0].extension[0].animalFeedingModule[0].animalFeeding[0].animalFeedingDetail[0].animalNutrientDetail[%d].animalNutrientTypeCode[%d].__value__)",
+              "entityType": "smtradeitem",
+              "type": "string",
+              "hasUOM": false,
+              "isLocalizable": false,
+              "collectionType": true,
+              "isKeyValuePair": true
+            },
+            {
+              "id": 564597512,
+              "source": "@attr(sm_animalnutrientdetail.group[%d].sm_animalnutrientexactpercentage)",
+              "destination": "@path(tradeItemInformation[0].extension[0].animalFeedingModule[0].animalFeeding[0].animalFeedingDetail[0].animalNutrientDetail[%d].animalNutrientExactPercentage)",
+              "entityType": "smtradeitem",
+              "type": "string",
+              "hasUOM": false,
+              "isLocalizable": false,
+              "collectionType": false,
+              "isKeyValuePair": true
+            },
+            {
+              "id": 70867076,
+              "source": "@attr(sm_animalnutrientdetail.group[%d].sm_animalnutrientminimumpercentage)",
+              "destination": "@path(tradeItemInformation[0].extension[0].animalFeedingModule[0].animalFeeding[0].animalFeedingDetail[0].animalNutrientDetail[%d].animalNutrientMinimumPercentage)",
+              "entityType": "smtradeitem",
+              "type": "string",
+              "hasUOM": false,
+              "isLocalizable": false,
+              "collectionType": false,
+              "isKeyValuePair": true
+            },
+            {
+              "id": 36184941,
+              "source": "@attr(sm_animalnutrientdetail.group[%d].sm_animalnutrientquantitycontained)",
+              "destination": "@path(tradeItemInformation[0].extension[0].animalFeedingModule[0].animalFeeding[0].animalFeedingDetail[0].animalNutrientDetail[%d].animalNutrientQuantityContained[%d].@measurementUnitCode#@#tradeItemInformation[0].extension[0].animalFeedingModule[0].animalFeeding[0].animalFeedingDetail[0].animalNutrientDetail[%d].animalNutrientQuantityContained[%d].__value__)",
+              "entityType": "smtradeitem",
+              "type": "string",
+              "hasUOM": true,
+              "isLocalizable": false,
+              "collectionType": true,
+              "isKeyValuePair": true
+            }
+          ]
+        },
+        {
+          "id": 372424459,
+          "source": "@attr(sm_nutrientdetail)",
+          "destination": "@path(nutrientDetail[%d])",
+          "entityType": "smtradeitem",
+          "type": "oneToTwoLevel",
+          "hasUOM": false,
+          "isLocalizable": false,
+          "collectionType": false,
+          "isKeyValuePair": true,
+          "childFieldMappings": [
+            {
+              "id": 127371307,
+              "source": "@attr(sm_nutrientdetail.group[%d].sm_dailyvalueintakepercentmeasurementprecisioncode)",
+              "destination": "@path(tradeItemInformation[0].extension[0].nutritionalInformationModule[0].nutrientHeader[0].nutrientDetail[0].dailyValueIntakePercentMeasurementPrecisionCode[%d].@dailyvalueintakepercentmeasurementprecisioncodecode#@#tradeItemInformation[0].extension[0].nutritionalInformationModule[0].nutrientHeader[0].nutrientDetail[0].dailyValueIntakePercentMeasurementPrecisionCode[%d].__value__)",
+              "entityType": "smtradeitem",
+              "type": "referenceTypeData",
+              "hasUOM": false,
+              "isLocalizable": false,
+              "collectionType": true,
+              "isKeyValuePair": true
+            },
+            {
+              "id": 127371307,
+              "source": "@attr(sm_nutrientdetail.group[%d].sm_dailyvalueintakepercent)",
+              "destination": "@path(tradeItemInformation[0].extension[0].nutritionalInformationModule[0].nutrientHeader[0].nutrientDetail[0].dailyvalueintakepercent)",
+              "entityType": "smtradeitem",
+              "type": "String",
+              "hasUOM": false,
+              "isLocalizable": false,
+              "collectionType": false,
+              "isKeyValuePair": true
+            },
+            {
+              "id": 127371307,
+              "source": "@attr(sm_nutrientdetail.group[%d].sm_nutrientquantitycontained)",
+              "destination": "@path(tradeItemInformation[0].extension[0].nutritionalInformationModule[0].nutrientHeader[0].nutrientDetail[0].quantityContained[%d].@measurementUnitCode#@#tradeItemInformation[0].extension[0].nutritionalInformationModule[0].nutrientHeader[0].nutrientDetail[0].quantityContained[%d].__value__)",
+              "entityType": "smtradeitem",
+              "type": "String",
+              "hasUOM": true,
+              "isLocalizable": false,
+              "collectionType": false,
+              "isKeyValuePair": true
+            },
+            {
+              "id": 127371307,
+              "source": "@attr(sm_nutrientdetail.group[%d].sm_nutrienttypecode)",
+              "destination": "@path(tradeItemInformation[0].extension[0].nutritionalInformationModule[0].nutrientHeader[0].nutrientDetail[0].nutrientTypeCode[%d].@nutrienttypecodecode#@#tradeItemInformation[0].extension[0].nutritionalInformationModule[0].nutrientHeader[0].nutrientDetail[0].nutrientTypeCode[%d].__value__)",
+              "entityType": "smtradeitem",
+              "type": "referenceTypeData",
+              "hasUOM": false,
+              "isLocalizable": false,
+              "collectionType": true,
+              "isKeyValuePair": true
+            },
+            {
+              "id": 127371307,
+              "source": "@attr(sm_nutrientdetail.group[%d].sm_measurementprecisioncode)",
+              "destination": "@path(tradeItemInformation[0].extension[0].nutritionalInformationModule[0].nutrientHeader[0].nutrientDetail[0].measurementprecisioncode[%d].__value__)",
+              "entityType": "smtradeitem",
+              "type": "string",
+              "hasUOM": false,
+              "isLocalizable": false,
+              "collectionType": true,
+              "isKeyValuePair": true
+            }
+          ]
+        },
+        {
+          "id": 372424459,
+          "source": "@attr(sm_nutritionheader)",
+          "destination": "@path(nutritionHeader)",
+          "entityType": "smtradeitem",
+          "type": "oneToTwoLevel",
+          "hasUOM": false,
+          "isLocalizable": false,
+          "collectionType": false,
+          "isKeyValuePair": true,
+          "childFieldMappings": [
+            {
+              "id": 127371307,
+              "source": "@attr(sm_nutritionheader.group[%d].sm_dailyvalueintakereference)",
+              "destination": "@path(tradeItemInformation[0].extension[0].nutritionalInformationModule[0].nutrientHeader[0].dailyValueIntakeReference[%d])",
+              "entityType": "smtradeitem",
+              "type": "string",
+              "hasUOM": false,
+              "isLocalizable": true,
+              "collectionType": false,
+              "isKeyValuePair": true
+            },
+            {
+              "id": 127371307,
+              "source": "@attr(sm_nutritionheader.group[%d].sm_preparationstatecode)",
+              "destination": "@path(tradeItemInformation[0].extension[0].nutritionalInformationModule[0].nutrientHeader[0].preparationStateCode[%d].__value__)",
+              "entityType": "smtradeitem",
+              "type": "string",
+              "hasUOM": false,
+              "isLocalizable": false,
+              "collectionType": true,
+              "isKeyValuePair": true
+            },
+            {
+              "id": 127371307,
+              "source": "@attr(sm_nutritionheader.group[%d].sm_servingsize)",
+              "destination": "@path(tradeItemInformation[0].extension[0].nutritionalInformationModule[0].nutrientHeader[0].servingSize[%d].@measurementUnitCode#@#tradeItemInformation[0].extension[0].nutritionalInformationModule[0].nutrientHeader[0].servingSize[%d].__value__)",
+              "entityType": "smtradeitem",
+              "type": "string",
+              "hasUOM": true,
+              "isLocalizable": false,
+              "collectionType": true,
+              "isKeyValuePair": true
+            },
+            {
+              "id": 127371307,
+              "source": "@attr(sm_nutritionheader.group[%d].sm_servingsizedescription)",
+              "destination": "@path(tradeItemInformation[0].extension[0].nutritionalInformationModule[0].nutrientHeader[0].servingSizeDescription[%d])",
+              "entityType": "smtradeitem",
+              "type": "string",
+              "hasUOM": false,
+              "isLocalizable": true,
+              "collectionType": false,
+              "isKeyValuePair": true
+            },
+            {
+              "id": 127371307,
+              "source": "@attr(sm_nutritionheader.group[%d].sm_nutriheadersequence)",
+              "destination": "@path(tradeItemInformation[0].extension[0].nutritionalInformationModule[0].nutrientHeader[0].nutriHeaderSequence)",
+              "entityType": "smtradeitem",
+              "type": "string",
+              "hasUOM": false,
+              "isLocalizable": false,
+              "collectionType": false,
+              "isKeyValuePair": true
+            }
+          ]
+        },
+        {
+          "id": 372424459,
+          "source": "@attr(sm_diettypeinformation)",
+          "destination": "@path(dietTypeInformation)",
+          "entityType": "smtradeitem",
+          "type": "oneToTwoLevel",
+          "hasUOM": false,
+          "isLocalizable": false,
+          "collectionType": false,
+          "isKeyValuePair": true,
+          "childFieldMappings": [
+            {
+              "id": 127371307,
+              "source": "@attr(sm_diettypeinformation.group[%d].sm_diettypesubcode)",
+              "destination": "@path(tradeItemInformation[0].extension[0].dietInformationModule[0].dietInformation[0].dietTypeInformation[0].dietTypeSubcode)",
+              "entityType": "smtradeitem",
+              "type": "string",
+              "hasUOM": false,
+              "isLocalizable": false,
+              "collectionType": false,
+              "isKeyValuePair": true
+            },
+            {
+              "id": 127371307,
+              "source": "@attr(sm_diettypeinformation.group[%d].sm_diettypecode)",
+              "destination": "@path(tradeItemInformation[0].extension[0].dietInformationModule[0].dietInformation[0].dietTypeInformation[0].dietTypeCode[%d].__value__)",
+              "entityType": "smtradeitem",
+              "type": "string",
+              "hasUOM": false,
+              "isLocalizable": false,
+              "collectionType": true,
+              "isKeyValuePair": true
+            }
+          ]
+        },
+        {
+          "id": 372424459,
+          "source": "@attr(sm_packagingmaterialinfo)",
+          "destination": "@path(packaging)",
+          "entityType": "smtradeitem",
+          "type": "oneToTwoLevel",
+          "hasUOM": false,
+          "isLocalizable": false,
+          "collectionType": false,
+          "isKeyValuePair": true,
+          "childFieldMappings": [
+            {
+              "id": 127371307,
+              "source": "@attr(sm_packagingmaterialinfo.group[%d].sm_packagingmaterialtypecode)",
+              "destination": "@path(tradeItemInformation[0].extension[0].packagingInformationModule[0].packaging[0].packagingMaterial[0].packagingMaterialTypeCode[%d].__value__)",
+              "entityType": "smtradeitem",
+              "type": "string",
+              "hasUOM": false,
+              "isLocalizable": false,
+              "collectionType": true,
+              "isKeyValuePair": true
+            },
+            {
+              "id": 127371307,
+              "source": "@attr(sm_packagingmaterialinfo.group[%d].sm_packagingtypecode)",
+              "destination": "@path(tradeItemInformation[0].extension[0].packagingInformationModule[0].packaging[0].packagingTypeCode[%d].__value__)",
+              "entityType": "smtradeitem",
+              "type": "string",
+              "hasUOM": false,
+              "isLocalizable": false,
+              "collectionType": true,
+              "isKeyValuePair": true
+            }
+          ]
+        },
+        {
+          "id": 150006301,
+          "source": "@attr(sm_allergenspecification)",
+          "destination": "@path(allergenspecification)",
+          "entityType": "smtradeitem",
+          "type": "oneToTwoLevel",
+          "hasUOM": false,
+          "isLocalizable": false,
+          "collectionType": false,
+          "isKeyValuePair": true,
+          "childFieldMappings": [
+            {
+              "id": 968699146,
+              "source": "@attr(sm_allergenspecification.group[%d].sm_allergenspecificationname)",
+              "destination": "@path(tradeItemInformation[0].extension[0].allergenInformationModule[0].allergenRelatedInformation[0].allergenSpecificationName)",
+              "entityType": "smtradeitem",
+              "type": "string",
+              "hasUOM": false,
+              "isLocalizable": false,
+              "collectionType": false,
+              "isKeyValuePair": true
+            },
+            {
+              "id": 274062767,
+              "source": "@attr(sm_allergenspecification.group[%d].sm_allergenspecificationagency)",
+              "destination": "@path(tradeItemInformation[0].extension[0].allergenInformationModule[0].allergenRelatedInformation[0].allergenSpecificationAgency)",
+              "entityType": "smtradeitem",
+              "type": "string",
+              "hasUOM": false,
+              "isLocalizable": false,
+              "collectionType": false,
+              "isKeyValuePair": true
+            },
+            {
+              "id": 613345745,
+              "source": "@attr(sm_allergenspecification.group[%d].sm_allergenstatement)",
+              "destination": "@path(tradeItemInformation[0].extension[0].allergenInformationModule[0].allergenRelatedInformation[0].allergenStatement[%d])",
+              "entityType": "smtradeitem",
+              "type": "string",
+              "hasUOM": false,
+              "isLocalizable": true,
+              "collectionType": false,
+              "isKeyValuePair": true
+            }
+          ]
+        },
+        {
+          "id": 372424459,
+          "source": "@attr(sm_allergen)",
+          "destination": "@path(allergen)",
+          "entityType": "smtradeitem",
+          "type": "oneToThreeLevel",
+          "hasUOM": false,
+          "isLocalizable": false,
+          "collectionType": true,
+          "isKeyValuePair": true,
+          "childFieldMappings": [
+            {
+              "id": 127371307,
+              "source": "@attr(sm_allergen.group[%d].sm_allergentypecode)",
+              "destination": "@path(tradeItemInformation[0].extension[0].allergenInformationModule[0].allergenRelatedInformation[0].allergen[%d].allergenTypeCode[%d].__value__)",
+              "entityType": "smtradeitem",
+              "type": "string",
+              "hasUOM": false,
+              "isLocalizable": false,
+              "collectionType": true,
+              "isKeyValuePair": true
+            },
+            {
+              "id": 127371307,
+              "source": "@attr(sm_allergen.group[%d].sm_levelofcontainmentcode)",
+              "destination": "@path(tradeItemInformation[0].extension[0].allergenInformationModule[0].allergenRelatedInformation[0].allergen[%d].levelOfContainmentCode[%d].__value__)",
+              "entityType": "smtradeitem",
+              "type": "string",
+              "hasUOM": false,
+              "isLocalizable": false,
+              "collectionType": true,
+              "isKeyValuePair": true
+            }
+          ]
+        }
+      ]
+    }
+  }
+}
